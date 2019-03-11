@@ -1,6 +1,7 @@
 WORKFLOW
 
 git clone
+
 composer install
 
     db_name: prosto
@@ -17,7 +18,7 @@ composer install
 Example:   
 
 Get all currencies
-    http://api.prosto.local/v1/currency/currencies/?token=100-token&pagination=20
+    http://api.prosto.local/v1/currency/currencies/?token=100-token
     
 Get currencies with pagination 
     http://api.prosto.local/v1/currency/currencies/?token=100-token&pagination=20
